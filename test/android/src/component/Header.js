@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, View} from 'react-native'
+import {AppRegistry, Text, View} from 'react-native'
 
 const Header = () => {
 const { textStyling, viewStyle } = styles;
@@ -21,3 +21,5 @@ const styles = {
         backgroundColor: 'grey'
     }
 };
+
+AppRegistry.registerComponent('test', () => App);
